@@ -1,0 +1,435 @@
+/*body*/
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  line-height:1.5em;
+  padding:0px;
+  margin:0px;
+} 
+html{
+  scroll-behavior: smooth;
+}
+.navbar{
+  height:70px;
+  width:100%;
+  text-align:center;
+  background:rgb(0,0,0,0.3); 
+  border-bottom:#e8491d 1px solid;
+}
+
+span{
+  color:#009405;
+}
+h2{
+  color:#0038b8;
+  font-family:Garamond, Georgia, serif;
+  font-size:25px;
+  text-align:center;
+}
+h3{
+  color:#006600;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+/*first-part*/
+
+#highlight{
+  color:#e8d9ff;
+}
+#first-part{ 
+  background:url(https://foodandtravel.mx/wp-content/uploads/2017/08/NepalFT.jpg) no-repeat 0 -45px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:106vh;
+  margin-top:-25px;
+ 
+}
+#first-part .navbar h1{
+  font-size:37px;
+  color:#bfff00;
+  text-shadow: 6px 6px 8px #000000;
+  padding-top:25px;
+}
+.navbar #flag{
+  position: fixed;
+  top: 4px;
+  right:70px;
+  padding: 5px;
+}
+.navbar #emblem{
+  position: fixed;
+  top: 10px;
+  right:10px;
+  padding: 5px;
+}
+
+.center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  user-select:none;
+  text-align:center;
+}
+
+.center p{
+  font-size: 17px;
+  font-weight:bold;
+}
+.center p .capital{
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  color:#006600;  
+}
+.center h2{
+  text-align:center;
+  margin-left:190px;
+  color:#060d13;
+  font-size:30px;
+  font-weight:bold; 
+  font-family: "Times New Roman", Times,        serif;
+  margin-top:40px;
+}
+.center h2{
+  width:215px;
+  text-shadow: 10px 10px 12px #000000;
+  background: rgba(245,245,245,0.3);
+}
+#buttons button{
+  height:40px;
+  width:175px;
+  border:2px solid transparent;
+  background-image:linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+  background-origin:border-box;
+  background-clip:content-box,border-box;
+  outline:none;
+  cursor:pointer;
+  border-radius:25px;
+  transition:.5s;
+}
+#buttons button a{
+  text-decoration:none;
+  font-size:14px;
+  font-weight:bold;
+  color:#ffffff;
+}
+#buttons #btn{
+  margin-left:60px; 
+}
+#buttons button:hover{
+  background:rgba(102, 224, 255, 0.8);
+  border:3px solid #8000ff;
+}
+#buttons button a:hover{
+  color:#6600cc;
+}
+#arrow-btn{
+  display:none;
+  position:fixed;
+  height:50px;
+  width:30px;
+  right:10px;
+  bottom:10px;
+  border-radius:50px;
+  text-align:center;
+  background:red;  
+  box-shadow:0 0 10px #000000;
+  cursor:pointer;
+  font-size:25px;
+  border:none;
+  transition-duration:0.2s;   
+}
+#arrow-btn i{
+  padding-top:10px;
+  color:white;
+  text-align:center;
+}
+#arrow-btn:hover, #arrow-btn:focus{
+  background:#6699cc;
+}
+
+/*second-part*/
+#second-part{
+  background: #7F7FD5; 
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  height:100vh;
+}
+
+#second-part .navbar{
+  margin-top:-25px;
+}
+#second-part .navbar h1{
+  color:#4d00b2;
+  padding-top:25px;
+}
+#history{
+  float:left;
+  width:55%;
+  height:350px;
+  padding:8px;
+  margin-top:-1px;
+}
+#history p{
+  text-align:justify;
+}
+.birendra{
+  background: #3C3B3F;  
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F); 
+  background: linear-gradient(to right, #605C3C, #3C3B3F);
+  padding:0px 5px 0px 3px; 
+}
+.geography{
+  float:right;
+  width:20%;
+  margin-right:10px;
+  margin-top:5px;
+}
+#second-part .geography{
+  background: #3C3B3F; 
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  
+  background: linear-gradient(to right, #605C3C, #3C3B3F); 
+  padding:1px 10px 2px 10px;
+  height:360px;
+  width:380px; 
+}
+#second-part h2{
+  margin-top:5px;
+}
+.geography p{
+  text-align:justify;
+}
+
+#map{
+  width:200px;
+}
+#second-part .fotter{
+  margin-top:420px;
+  background:rgb(0,0,0,0.3);
+  height:90px;
+  clear:both;
+  border-top:#e8491d 1px solid;
+}
+#second-part .fotter ul li{
+  font-size:13px;
+  text-align:center;
+  line-height:2rem;
+  text-decoration:none;
+  list-style:none;
+  margin-top:-15px; 
+}
+
+/*third-part*/
+
+#third-part .navbar{
+  background:#5c99c2;
+  margin-top:-18px;
+}
+#third-part h1{
+  text-align:center;
+  padding-top:25px;
+}
+#third-part{
+  background: #7F7FD5; 
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+  height:100vh;
+}
+#third-part #culture{
+  float:left;
+  margin:5px 10px 8px 20px;  
+}
+#third-part #culture{
+  background: #e6cccc;
+  width:50%;
+  height:410px;
+  border:1px solid black;
+  overflow-y:scroll;
+  padding:5px 40px 0px 5px;
+}
+#third-part #culture p{
+  text-align:justify;
+}
+ul#main li{
+  color:#ffffff;
+  list-style:none;
+  padding:20px;
+  margin-bottom:5px;
+  border:#cccccc solid 1px;
+  border-radius:20px;
+  background:#948fb2;
+}
+
+#third-part .facts{
+  float:right;
+  color:#ffffff;
+  width:30%;
+  height:190px;
+  margin:10px 20px 0px 20px;
+}
+.facts{
+   background:#948fb2; 
+   border:2px solid green;
+   border-radius:20px;
+   padding:5px 10px 100px 10px;
+}
+.facts ul li a{
+  color:#ffffff;
+}
+.facts{
+  line-height:2em;
+}
+#third-part .fotter{
+  text-align:center;
+}
+
+/*forth-part*/
+.forth-part{
+  background: #7F7FD5; 
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  height:100vh;
+  padding-top:20px;
+}
+.forth-part #list-of-himalayas{
+  float:left;
+  width:43%;
+  padding-left:20px;
+  border-right:1px solid blue;
+}
+.forth-part #symbols{
+  float:left;
+  width:25%;
+  padding-left:20px;
+  border-right:1px solid blue;
+}
+.forth-part #heritage{
+  float:left;
+  width:25%;
+  padding-left:10px;
+}
+
+/*final-part*/
+
+.final-part{
+  background: #7F7FD5; 
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+  height:100vh;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+}
+.final-part #mt-everest{
+  width:340px;
+  float:left;
+  text-align:justify;
+  padding-left:10px;
+  margin-top:20px;
+  color:#39004d;
+}
+.final-part #Gautam-Budhha{
+  width:340px;
+  float:left;
+  text-align:justify;
+  margin-top:20px;
+  color:#660000;
+}
+.final-part #water-resources{
+  width:330px;
+  float:left;
+  text-align:justify;
+  margin-top:20px;  
+  padding-right:20px;
+  color:#4d4d00;
+}
+@media screen and (max-width:1082px){
+  .center{
+  position:absolute; top:45%; left:50%;
+  transform:translate(-50%, -50%);}
+  .navbar{height:60px;}
+  .fotter{height:80px; margin-top:100px;}
+  body{font-size:13px;}
+  .final-part #mt-everest{margin-right:10px;}
+  .final-part #water-resources{margin-left:10px;}
+}
+@media screen and (max-width:965px){
+  #second-part .geography{width:330px;}
+  .center h2{position:relative; right:80px; 
+  .center h2{width:200px;}
+  .center #buttons #btn{position:relative; margin-left:-80px;} 
+   body{font-size:11px;} 
+   #second-part .fotter{height:80px;}
+}
+@media screen and (max-width:850px){
+  #second-part #history{height:200px; font-size:12px;}
+  #second-part .geography{width:300px; font-size:12px;}
+  .center #buttons #btn{
+  margin-left:45px;}
+}
+@media screen and (max-width:787px){
+  .navbar{height:55px;}
+  #first-part .navbar h1{font-size:27px;}
+  #second-part .navbar h1{font-size:24px; padding-top:20px;}
+  #flag{width:33px; margin-right:-10px; margin-top:-4px;}
+  #emblem{width:45px; margin-top:-7px;}
+   #arrow-btn{height:40px; width:22px; font-size:19px;}
+  #second-part .navbar{margin-top:-65px;}
+  .center #mt-names{color:#ffff00;}
+  .center p{font-size:16px; color:#00ff99;}
+  .center p .capital{color:#ff6600;}
+  #buttons button{height:30px; width:155px;} 
+  #buttons button a{font-size:13px;}
+ #second-part #history{height:150px; font-size:12px; overflow-y:scroll; height:350px; width:300px;}
+  #second-part .geography{width:280px;} 
+  #third-part #culture{margin:1px; padding:0px; height:340px; width:280px;}
+  #third-part .facts{width:220px;} 
+} 
+  @media screen and (max-width:650px){
+  body{font-size:12px;} .navbar{height:40px;}
+  #first-part .navbar h1{font-size:23px; padding-top:18px;}
+  #second-part .navbar h1{font-size:20px; padding-top:10px;}   h2{font-size:21px;}
+  #flag{width:20px; margin-right:-30px; margin-top:-4px;}
+  #emblem{width:29px; margin-top:-10px;}
+  #arrow-btn{height:30px; width:18px; font-size:14px;}
+  #buttons button{height:24px; width:135px;}
+  #buttons button a{font-size:11px;}
+  #buttons #btn{margin-left:0px;}
+  .forth-part{background:#e6ffff; height:200vh;}  
+  #map{width:100px;} 
+   #second-part .geography{ width:160px; height:390px; padding-top:0px; margin-top:10px; margin-bottom:30px;}
+   #second-part #history{overflow-y:scroll; height:400px; width:240px; margin-top:6px; margin-bottom:35px;}
+   #second-part .fotter{height:40px; padding-top:4px;}
+   #second-part .fotter ul li{font-size:10px; padding-top:-10px; line-height:1.7rem;}
+   #third-part .navbar{margin-top:-25px;} 
+   #third-part h1{padding-top:12px;} 
+   #third-part #culture{margin-left:5px; width:220px; height:460px; padding-left:35px;} 
+   #third-part #culture ul#main li{padding:5px; width:160px; margin-left:-37px;} 
+   #third-part .facts{width:200px; margin-right:4px; margin-left:5px; padding:0px; height:300px;}  
+   #third-part .facts ul li{padding:0px; margin-left:-10px;}
+   .forth-part #list-of-himalayas{margin-right:25px; padding-left:100px;  width:300px;  border-right: none;}
+   .forth-part #symbols{padding-left:50px; padding-right:10px; padding-top:20px; width:160px; margin:auto;}
+   .forth-part{background:#e6ffff; height:160vh;}
+   .forth-part #heritage{padding-left:5px; width:180px; margin-left:25px; padding-top:20px}
+   .final-part{padding-left:6px; padding-top:15px;}
+   .final-part #mt-everest{position:relative; bottom:10px; margin-right:10px;}
+   #water-resources{position:relative; bottom:10px; margin-left:10px;} 
+   #third-part{background-color:#f2f29e; height:100vh;}
+   .final-part #Gautam-Budhha{position:relative; bottom:10px;}
+   #second-part .navbar{margin-top:-45px;}
+   #first-part{ 
+   background:url(https://foodandtravel.mx/wp-content/uploads/2017/08/NepalFT.jpg) no-repeat  -150px -20px;
+   background-size:cover;
+   background-repeat: no-repeat;
+   height:106vh;}
+   .center{ margin-top:-50px;}
+   #first-part .center h2{font-size:22px;margin-top:5px;}
+   #first-part .center p{font-size: 12px; width:370px; 
+    text-align:center; margin-left:15px; color:#000000;}
+}
+  
+
+
+
+
+
