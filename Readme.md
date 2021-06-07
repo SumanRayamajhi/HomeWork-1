@@ -1,5 +1,5 @@
 1. How do you see the files changed within each commit from git log?
-
+git log -p  (answred by RANA AHMED)
 Answer: By using flag "git log --stat", it will listed out all the files that were involved in each 
 commits.
 We can see their paths, and also the relative changes listed out with plus and minus sign, during any
